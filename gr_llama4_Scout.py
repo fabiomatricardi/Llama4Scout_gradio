@@ -85,13 +85,13 @@ with gr.Blocks(theme=gr.themes.Soft(secondary_hue=gr.themes.colors.orange,primar
                 log = gr.Markdown(logafilename, label='Log File name',container=True, show_label=True)
                 botgr = gr.JSON(value=[],show_label=False,visible=False) #segregate chat message from presentation
                 clear = gr.Button(value='Delete History',variant='secondary',
-                                  icon='https://img.freepik.com/premium-vector/minimal-trash-bin-icon-vector_941526-16016.jpg')
+                                  icon='https://cdn-icons-png.flaticon.com/512/6915/6915616.png')
             with gr.Column(scale=3):
                 chatbot = gr.Chatbot(type="messages",min_height='66vh',
                                      placeholder=PLACEHOLDER,
                                      show_copy_button = True,
                                      avatar_images=['https://i.ibb.co/PvqbDphL/user.png',
-                                     'https://cdn-icons-png.flaticon.com/512/6915/6915616.png'],)
+                                     'https://freelogopng.com/images/all_img/1664035876new-meta-logo.png'],)
                 msg = gr.MultimodalTextbox(interactive=True, file_types=["image"], 
                                            placeholder="Enter message or upload file...", 
                                            show_label=False)
