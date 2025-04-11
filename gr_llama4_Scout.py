@@ -14,7 +14,7 @@ import string
 # Background of the Chatbot as a placeholder... really smart!
 PLACEHOLDER = """
 <div style="padding: 30px; text-align: center; display: flex; flex-direction: column; align-items: center;">
-   <img src="https://q7.itc.cn/q_70/images03/20240419/8945b17b32d440bf88fb52149408c6c2.jpeg" style="width: 80%; max-width: 550px; height: auto; opacity: 0.55;  "> 
+   <img src="https://wwwhatsnew.com/wp-content/uploads/2025/04/llama4-meta-modelos-inteligencia-artificial.png.webp" style="width: 80%; max-width: 550px; height: auto; opacity: 0.55;  "> 
    <h1 style="font-size: 28px; margin-bottom: 2px; opacity: 0.55;">LLama 4 Scout</h1>
    <p style="font-size: 18px; margin-bottom: 2px; opacity: 0.65;">Llama 4 Scout, a 17 billion active parameter model with 16 experts, is the best multimodal model in the world in its class.</p>
 </div>
@@ -73,7 +73,7 @@ with gr.Blocks(theme=gr.themes.Soft(secondary_hue=gr.themes.colors.orange,primar
         gr.Markdown("# Chat with Llama 4 Scout - 109b-a17b 🦙 16 experts at your service",elem_id='warning')
         with gr.Row():
             with gr.Column(scale=1):
-                genlogo = gr.Image('https://q7.itc.cn/q_70/images03/20240419/8945b17b32d440bf88fb52149408c6c2.jpeg',
+                genlogo = gr.Image('https://wwwhatsnew.com/wp-content/uploads/2025/04/llama4-meta-modelos-inteligencia-artificial.png.webp',
                                    show_label=False)
                 gr.Markdown('### Remember the API Key')
                 APIKey = gr.Textbox(value="", 
