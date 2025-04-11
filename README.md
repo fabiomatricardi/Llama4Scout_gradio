@@ -1,7 +1,7 @@
 # Llama4Scout_gradio
 A multimodal Gradio Chatbot with Llama 4 and openrouter.ai API
 
-<img src='https://q7.itc.cn/q_70/images03/20240419/8945b17b32d440bf88fb52149408c6c2.jpeg' width=800>
+<img src='https://wwwhatsnew.com/wp-content/uploads/2025/04/llama4-meta-modelos-inteligencia-artificial.png.webp' width=800>
 
 
 # A Gradio app with multi turn, using openrouter API endpoints
